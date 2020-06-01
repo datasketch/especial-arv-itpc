@@ -1,5 +1,5 @@
 {{ define "main" }}
-  <div class="bg-cover bg-no-repeat bg-center py-24 px-4" style='background-image: url({{"images/header.webp" | absURL }})'>
+  <div class="bg-cover bg-no-repeat bg-center py-24 px-4 bg-fixed" style='background-image: url({{"images/header.webp" | absURL }})'>
     <div class="max-w-md mx-auto">
       <h1 class="text-charleston-green font-bold text-6xl flex flex-col items-start">
         <span class="px-2 bg-orange-yellow">Compras</span>
@@ -12,20 +12,20 @@
   <div class="bg-bottle-green bg-contain bg-no-repeat bg-right-top py-24 px-4" style='background-image: url({{ "images/lateral.webp" | absURL }});'>
     <div class="w-4/5 mx-auto">
       <div class="text-white max-w-lg space-y-6 text-lg md:text-xl">
-        <p>Existe una falta de acceso a tratamientos para todas las personas con VIH en Guatemala, esto debido, entre otras causas, a las barreras legales sobre los medicamentos antirretrovirales, gestión administrativa y utilización de modalidades de compras que no garantizan un uso eficiente de los recursos en los procesos de adquisiciones de medicamentos con fondos públicos. </p>
-        <p>La <strong>cascada de atención 90-90-90</strong> son los porcentajes de diagnóstico, tratamiento y supresión viral de pacientes con VIH que se fijaron como objetivo para el año 2020 en Guatemala. Se busca lograr que el 90% de personas viviendo con VIH conozcan su diagnóstico, 90% de personas diagnosticadas estén vinculadas a tratamiento y 90% de personas en tratamiento estén con supresión viral.</p>
-        <p>Al año 2016, según el informe nacional de la cascada de atención 90-90-90, de un estimado de 46,271 personas viviendo con VIH, 28,844 personas (más o menos el 62%) conocían su diagnóstico serológico, de las cuales solamente un 38% estaban bajo tratamiento con Antirretrovirales (ARV). Esto abre el debate sobre la sostenibilidad de la respuesta a la epidemia del VIH en Guatemala.</p>
+        <p class="observed">Existe una falta de acceso a tratamientos para todas las personas con VIH en Guatemala, esto debido, entre otras causas, a las barreras legales sobre los medicamentos antirretrovirales, gestión administrativa y utilización de modalidades de compras que no garantizan un uso eficiente de los recursos en los procesos de adquisiciones de medicamentos con fondos públicos. </p>
+        <p class="observed">La <strong>cascada de atención 90-90-90</strong> son los porcentajes de diagnóstico, tratamiento y supresión viral de pacientes con VIH que se fijaron como objetivo para el año 2020 en Guatemala. Se busca lograr que el 90% de personas viviendo con VIH conozcan su diagnóstico, 90% de personas diagnosticadas estén vinculadas a tratamiento y 90% de personas en tratamiento estén con supresión viral.</p>
+        <p class="observed">Al año 2016, según el informe nacional de la cascada de atención 90-90-90, de un estimado de 46,271 personas viviendo con VIH, 28,844 personas (más o menos el 62%) conocían su diagnóstico serológico, de las cuales solamente un 38% estaban bajo tratamiento con Antirretrovirales (ARV). Esto abre el debate sobre la sostenibilidad de la respuesta a la epidemia del VIH en Guatemala.</p>
       </div>
     </div>
   </div>
   <div class="bg-baby-powder py-24 px-4">
     <div class="mx-auto w-4/5 space-y-24">
-      <div class="grid gap-12 grid-cols-1 md:grid-cols-2">
+      <div class="grid gap-12 grid-cols-1 md:grid-cols-2 observed">
         <div></div>
         <p class="text-lg md:text-xl">Los resultados indican que los ARVs comprados con más de 9 millones de quetzales en el año 2020, pudieron haberse adquirido utilizando precios de referencia (precio establecido en el listado de precios de medicamentos antirretrovirales de la Organización Panamericana de la Salud para el año 2018, o en la lista de precios de medicamentos antirretrovirales de Médicos sin Fronteras para el mismo año) por un monto de Q 6,643,230.99 con un ahorro de Q 2,786,915.43.
         </p>
       </div>
-      <div class="grid gap-12 grid-cols-1 md:grid-cols-2">
+      <div class="grid gap-12 grid-cols-1 md:grid-cols-2 observed">
         <p class="text-lg md:text-xl">La principal modalidad de compra de antirretrovirales fue la licitación pública para el 2019. Un aspecto importante es el impacto que la protección con barreras legales tiene sobre los medicamentos al momento de ejecutar las compras. Cuando un medicamento está protegido, el efecto de compra es similar al de una compra directa, esto debido a que se eliminan competidores del mercado, dejando únicamente a los proveedores que son concesionarios de la marca protegida. </p>
         <div></div>
       </div>
@@ -43,11 +43,11 @@
   </div>
   <div class="bg-charleston-green py-24 px-4">
     <div class="mx-auto w-4/5 text-white space-y-24">
-      <div class="grid gap-12 grid-cols-1 md:grid-cols-2">
+      <div class="grid gap-12 grid-cols-1 md:grid-cols-2 observed">
         <p class="text-lg md:text-xl">Un 43% del monto total de las compras de ARV fueron sobre medicamentos con algún tipo de protección legal. Lo que indica que fueron compras directas que eliminaron a los proveedores internacionales con los cuales se pudo haber obtenido ahorros sustanciales.</p>
         <div></div>
       </div>
-      <div class="grid gap-12 grid-cols-1 md:grid-cols-2">
+      <div class="grid gap-12 grid-cols-1 md:grid-cols-2 observed">
         <div></div>
         <p class="text-lg md:text-xl">Los montos de medicamentos protegidos con barreras legales adquiridos en el 2019 fueron de alrededor de 2 millones de quetzales, sin embargo pudieron haberse adquirido a un costo mucho menor del que se pagó.</p>
       </div>
@@ -65,8 +65,8 @@
   </div>
   <div class="bg-bottle-green py-24 px-4">
     <div class="mx-auto w-4/5 space-y-24">
-      <p class="text-white textlg text-center max-w-4xl mx-auto md:text-xl">La siguiente tabla muestra los porcentajes de sobreprecios en las compras que no fueron eficientes considerando la comparación entre costo de adquisición y precios de referencia citados en este estudio.</p>
-      <p class="text-white text-lg text-center max-w-4xl mx-auto md:text-xl">Se puede apreciar que los porcentajes de sobreprecio varían desde 5% en la compra de COBICISTAT + ELVITEGRAVIR + TENOFOVIR ALAFENAMIDA + EMTRICITABINA hasta un sobreprecio del 11,186% en la compra de Dolutegravir 50 mg, según el NOG (Número de Operación de Guatecompras). Esta cifra indica que el medicamento se compró 112 veces más caro.</p>
+      <p class="text-white text-lg text-center max-w-4xl mx-auto md:text-xl observed">La siguiente tabla muestra los porcentajes de sobreprecios en las compras que no fueron eficientes considerando la comparación entre costo de adquisición y precios de referencia citados en este estudio.</p>
+      <p class="text-white text-lg text-center max-w-4xl mx-auto md:text-xl observed">Se puede apreciar que los porcentajes de sobreprecio varían desde 5% en la compra de COBICISTAT + ELVITEGRAVIR + TENOFOVIR ALAFENAMIDA + EMTRICITABINA hasta un sobreprecio del 11,186% en la compra de Dolutegravir 50 mg, según el NOG (Número de Operación de Guatecompras). Esta cifra indica que el medicamento se compró 112 veces más caro.</p>
     </div>
   </div>
   <div class="bg-center bg-cover bg-no-repeat py-24 px-4" style='background-image: url({{ "images/articulo3.webp" | absURL }});'>
@@ -79,4 +79,12 @@
       <a href="" class="bg-orange-yellow px-4 py-2">Leer artículo</a>
     </div>
   </div>
+{{ end }}
+
+{{ define "scripts" }}
+  <script src='{{ "js/reveal.js" | absURL }}'></script>
+  <script>
+    const handler = new Reveal('.observed', { thresold: 0.4, intersected: 'fade-in' });
+    handler.init();
+  </script>
 {{ end }}
