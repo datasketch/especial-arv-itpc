@@ -1,3 +1,27 @@
 @tailwind base;
+
+@font-face {
+  font-family: 'Source Serif Pro';
+  font-weight: 400;
+  src: url('../fonts/SourceSerifPro-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Source Serif Pro';
+  font-weight: 700;
+  src: url('../fonts/SourceSerifPro-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: 400;
+  src: url('../fonts/Lato-Regular.ttf');
+}
+
 @tailwind components;
+
+.invert {
+  filter: brightness(0) invert(1);
+}
+
 @tailwind utilities;

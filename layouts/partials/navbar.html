@@ -1,3 +1,19 @@
-<header>
-  <nav></nav>
+<header class="bg-charleston-green px-4 py-2 border-b border-white sticky top-0">
+  <nav class="flex items-center">
+    <a href="" target="_blank" rel="noopener noreferrer">
+      <img class="h-10" src='{{ "images/itpc.png" | absURL }}' alt="ITPC" />
+    </a>
+    <div class="hidden items-center justify-center flex-grow text-white space-x-4 text-lg md:flex">
+      <a href="">Inicio</a>
+      <a href="">Artículos</a>
+      <a href="">Explorador de datos</a>
+      <a href="">Metodología</a>
+    </div>
+    <a class="ml-2 md:ml-0" href="https://www.datasketch.co" target="_blank" rel="noopener noreferrer">
+      <img class="h-6 invert" src='{{ "images/ds.svg" }}' alt="Datasketch" />
+    </a>
+    <button class="focus:outline-none text-white flex-grow flex justify-end md:hidden">
+      <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path class="heroicon-ui" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/></svg>
+    </button>
+  </nav>
 </header>

@@ -11,6 +11,10 @@ module.exports = {
         'orange-yellow': '#FCC22D',
         alabaster: '#F4EDE4',
         fulvous: '#E28A00',
+      },
+      fontFamily: {
+        'source-serif': ['"Source Serif Pro"', 'sans-serif'],
+        lato: ['Lato', 'sans-serif']
       }
     },
   },
