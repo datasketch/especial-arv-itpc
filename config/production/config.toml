@@ -1,0 +1,4 @@
+baseURL = "https://datasketch.github.io/especial-arv-itpc"
+languageCode = "es-es"
+title = "Especial ARV"
+publishDir = "docs"

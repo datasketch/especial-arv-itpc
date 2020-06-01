@@ -1,0 +1,23 @@
+{
+  "name": "especial-arv-itpc",
+  "version": "1.0.0",
+  "description": "Compras públicas y VIH",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Daza <03dazal@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^9.8.0",
+    "postcss": "^7.0.27",
+    "postcss-cli": "^7.1.0"
+  },
+  "dependencies": {
+    "tailwindcss": "^1.4.6"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
