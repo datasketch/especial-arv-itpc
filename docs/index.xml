@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Inicio on Especial ARV</title>
+    <link>https://datasketch.github.io/especial-arv-itpc/</link>
+    <description>Recent content in Inicio on Especial ARV</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Mon, 01 Jun 2020 16:37:04 -0500</lastBuildDate>
+    
+	<atom:link href="https://datasketch.github.io/especial-arv-itpc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Conoce nuestra metodología</title>
+      <link>https://datasketch.github.io/especial-arv-itpc/metodologia/</link>
+      <pubDate>Tue, 02 Jun 2020 10:59:07 -0500</pubDate>
+      
+      <guid>https://datasketch.github.io/especial-arv-itpc/metodologia/</guid>
+      <description>Lorem ipsum dolore Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</description>
+    </item>
+    
+    <item>
+      <title>Análisis de medicamentos, entidades y proveedores</title>
+      <link>https://datasketch.github.io/especial-arv-itpc/articulos/analisis-de-medicamentos-entidades-y-proveedores/</link>
+      <pubDate>Mon, 01 Jun 2020 17:05:00 -0500</pubDate>
+      
+      <guid>https://datasketch.github.io/especial-arv-itpc/articulos/analisis-de-medicamentos-entidades-y-proveedores/</guid>
+      <description>Darunavir 600mg Este medicamento fue adquirido a un costo de más de Q 5,000 por frasco, cuando el precio de referencia internacional (OPS) es de Q 577.38, esto considerando 25% de transporte y cargos administrativos. Si este medicamento se hubiera adquirido a precio de referencia, se hubieran podido comprar 1,488 frascos más.</description>
+    </item>
+    
+    <item>
+      <title>Comparativo de compras de ARV</title>
+      <link>https://datasketch.github.io/especial-arv-itpc/articulos/comparativo-de-compras-de-arv/</link>
+      <pubDate>Mon, 01 Jun 2020 17:04:34 -0500</pubDate>
+      
+      <guid>https://datasketch.github.io/especial-arv-itpc/articulos/comparativo-de-compras-de-arv/</guid>
+      <description>El total de las compras públicas de ARVs en Guatemala en 2017, 2018 y 2019 tuvo un total de US$ 59 millones, que pudieron haberse adquirido por US$ 36 millones. Es decir, se pagaron US$ 22 millones de más por estos medicamentos en los 3 años.
+Comparando cada uno de estos tres años, se observa una considerable diferencia en cuanto a las compras de 2017 con respecto al 2018 y 2019.</description>
+    </item>
+    
+    <item>
+      <title>¿Por qué es importante tratar el VIH?</title>
+      <link>https://datasketch.github.io/especial-arv-itpc/articulos/porque-es-importante-tratar-el-vih/</link>
+      <pubDate>Mon, 01 Jun 2020 17:04:13 -0500</pubDate>
+      
+      <guid>https://datasketch.github.io/especial-arv-itpc/articulos/porque-es-importante-tratar-el-vih/</guid>
+      <description>Derecho a la salud y a la vida Desde la concepción internacional, el derecho a la salud es universal sin ningún tipo de distinciones. Brindar tratamiento a personas con VIH desde la concepción de la OMS es un derecho indiscutible a favor de las personas que padecen la infección. Además hace un énfasis en que la desigualdad entre países, en lo relativo al fomento de la salud y el control de las enfermedades transmisibles, constituye un peligro común para las personas, por lo que debe existir un especial enfoque en el alcance de medicamentos a quienes lo necesiten.</description>
+    </item>
+    
+  </channel>
+</rss>
