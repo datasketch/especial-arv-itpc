@@ -1,5 +1,5 @@
 {{ define "main" }}
-  <div class="bg-cover bg-no-repeat bg-center py-24 px-4 bg-fixed" style='background-image: url({{"images/header.webp" | absURL }})'>
+  <div class="bg-cover bg-no-repeat bg-center py-24 px-4 bg-fixed observed" style='background-image: url({{"images/header.webp" | absURL }})'>
     <div class="max-w-md mx-auto">
       <h1 class="text-charleston-green font-bold text-6xl flex flex-col items-start">
         <span class="px-2 bg-orange-yellow">Compras</span>
@@ -9,7 +9,7 @@
       <p class="text-white text-xl mt-6">Este es un análisis de 41 contratos de compras de medicamentos antirretrovirales con fondos públicos en Guatemala durante el año 2019. Se estimaron y evidenciaron sobreprecios en algunas adquisiciones, barreras legales para la adquisición de medicamentos y un alto impacto en el tratamiento de personas viviendo con VIH.</p>
     </div>
   </div>
-  <div class="bg-bottle-green bg-contain bg-no-repeat bg-right-top py-24 px-4" style='background-image: url({{ "images/lateral.webp" | absURL }});'>
+  <div class="bg-bottle-green bg-contain bg-no-repeat bg-right-top py-24 px-4 observed" style='background-image: url({{ "images/lateral.webp" | absURL }});'>
     <div class="w-4/5 mx-auto">
       <div class="text-white max-w-lg space-y-6 text-lg md:text-xl">
         <p class="observed">Existe una falta de acceso a tratamientos para todas las personas con VIH en Guatemala, esto debido, entre otras causas, a las barreras legales sobre los medicamentos antirretrovirales, gestión administrativa y utilización de modalidades de compras que no garantizan un uso eficiente de los recursos en los procesos de adquisiciones de medicamentos con fondos públicos. </p>
@@ -31,14 +31,14 @@
       </div>
     </div>
   </div>
-  <div class="bg-center bg-cover bg-no-repeat py-24 px-4" style='background-image: url({{ "images/articulo1.webp" | absURL }});'>
+  <div class="bg-center bg-cover bg-no-repeat py-24 px-4 observed" style='background-image: url({{ "images/articulo1.webp" | absURL }});'>
     <h2 class="text-alabaster font-bold text-4xl flex flex-col items-center leading-tight md:text-6xl">
       <span class="px-2 bg-charleston-green text-center">¿Por qué es</span>
       <span class="px-2 bg-charleston-green text-center">importante</span>
       <span class="px-2 bg-charleston-green text-center">tratar el VIH?</span>
     </h2>
     <div class="text-center font-bold text-xl mt-6 md:text-3xl">
-      <a href="" class="bg-orange-yellow px-4 py-2">Leer artículo</a>
+      <a href='{{ ref . "articulos/porque-es-importante-tratar-el-vih.md" }}' class="bg-orange-yellow px-4 py-2">Leer artículo</a>
     </div>
   </div>
   <div class="bg-charleston-green py-24 px-4">
@@ -53,14 +53,14 @@
       </div>
     </div>
   </div>
-  <div class="bg-center bg-cover bg-no-repeat py-24 px-4" style='background-image: url({{ "images/articulo2.webp" | absURL }});'>
+  <div class="bg-center bg-cover bg-no-repeat py-24 px-4 observed" style='background-image: url({{ "images/articulo2.webp" | absURL }});'>
     <h2 class="text-alabaster font-bold text-4xl flex flex-col items-center leading-tight md:text-6xl">
       <span class="px-2 bg-charleston-green text-center">Comparativo de</span>
       <span class="px-2 bg-charleston-green text-center">compras de</span>
       <span class="px-2 bg-charleston-green text-center">ARV (2017-2019)</span>
     </h2>
     <div class="text-center font-bold text-xl mt-6 md:text-3xl">
-      <a href="" class="bg-orange-yellow px-4 py-2">Leer artículo</a>
+      <a href='{{ ref . "articulos/comparativo-de-compras-de-arv.md" }}' class="bg-orange-yellow px-4 py-2">Leer artículo</a>
     </div>
   </div>
   <div class="bg-bottle-green py-24 px-4">
@@ -69,14 +69,14 @@
       <p class="text-white text-lg text-center max-w-4xl mx-auto md:text-xl observed">Se puede apreciar que los porcentajes de sobreprecio varían desde 5% en la compra de COBICISTAT + ELVITEGRAVIR + TENOFOVIR ALAFENAMIDA + EMTRICITABINA hasta un sobreprecio del 11,186% en la compra de Dolutegravir 50 mg, según el NOG (Número de Operación de Guatecompras). Esta cifra indica que el medicamento se compró 112 veces más caro.</p>
     </div>
   </div>
-  <div class="bg-center bg-cover bg-no-repeat py-24 px-4" style='background-image: url({{ "images/articulo3.webp" | absURL }});'>
+  <div class="bg-center bg-cover bg-no-repeat py-24 px-4 observed" style='background-image: url({{ "images/articulo3.webp" | absURL }});'>
     <h2 class="text-alabaster font-bold text-4xl flex flex-col items-center leading-tight md:text-6xl">
       <span class="px-2 bg-charleston-green text-center">Análisis de</span>
       <span class="px-2 bg-charleston-green text-center">medicamentos, entidades</span>
       <span class="px-2 bg-charleston-green text-center">y proveedores</span>
     </h2>
     <div class="text-center font-bold text-xl mt-6 md:text-3xl">
-      <a href="" class="bg-orange-yellow px-4 py-2">Leer artículo</a>
+      <a href='{{ ref . "articulos/analisis-de-medicamentos-entidades-y-proveedores.md" }}' class="bg-orange-yellow px-4 py-2">Leer artículo</a>
     </div>
   </div>
 {{ end }}
@@ -84,7 +84,7 @@
 {{ define "scripts" }}
   <script src='{{ "js/reveal.js" | absURL }}'></script>
   <script>
-    const handler = new Reveal('.observed', { thresold: 0.4, intersected: 'fade-in' });
+    const handler = new Reveal('.observed', { thresold: 0.5, intersected: 'fade-in' });
     handler.init();
   </script>
 {{ end }}

@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <div class="bg-center bg-cover bg-no-repeat py-40 px-4" style='background-image: url({{ (index .Params.images 0) | absURL }});'>
+    <h2 class="w-full text-alabaster font-bold text-4xl flex justify-center leading-tight flex-wrap mx-auto md:text-6xl md:w-3/5">
+      {{ range (split .Title " ") }}
+        <span class="px-2 bg-charleston-green text-center">{{ . }}</span>
+      {{ end }}
+    </h2>
+  </div>
+  <div class="w-full mx-auto px-4 py-12 md:w-4/5">
+    <div class="markup">
+      {{ .Content }}
+    </div>
+    <div class="text-center font-bold text-xl mt-12 md:text-3xl">
+      <a href="{{ .Site.BaseURL }}" class="bg-charleston-green text-white px-4 py-2">
+        Volver al inicio
+      </a>
+    </div>
+  </div>
+{{ end }}

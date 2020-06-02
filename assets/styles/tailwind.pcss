@@ -35,4 +35,25 @@
   transform: translateY(0);
 }
 
+.markup {
+  @apply max-w-xl text-lg;
+}
+
+.markup > * ~ * {
+  @apply mt-6;
+}
+
+.markup h2 {
+  @apply text-2xl font-bold leading-tight;
+}
+
+@screen md {
+  .markup {
+    @apply text-xl;
+  }
+  .markup h2 {
+    @apply text-5xl;
+  }
+}
+
 @tailwind utilities;
