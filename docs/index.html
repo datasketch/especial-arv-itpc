@@ -13,9 +13,9 @@
   
 </head>
 <body class="font-source-serif">
-  <header class="bg-charleston-green px-4 py-2 border-b border-white sticky top-0 z-10">
+  <header class="bg-charleston-green px-4 py-2 border-b border-white sticky top-0 z-10 relative">
   <nav class="flex items-center">
-    <a href="" target="_blank" rel="noopener noreferrer">
+    <a href="https://itpclatca.org/" target="_blank" rel="noopener noreferrer">
       <img class="h-10" src='https://datasketch.github.io/especial-arv-itpc/images/itpc.png' alt="ITPC" />
     </a>
     <div class="hidden items-center justify-center flex-grow text-white space-x-4 text-lg md:flex">
@@ -27,10 +27,18 @@
     <a class="ml-2 md:ml-0" href="https://www.datasketch.co" target="_blank" rel="noopener noreferrer">
       <img class="h-6 invert" src='https://datasketch.github.io/especial-arv-itpc/images/ds.svg' alt="Datasketch" />
     </a>
-    <button class="focus:outline-none text-white flex-grow flex justify-end md:hidden">
-      <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path class="heroicon-ui" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/></svg>
+    <button class="menu-toggle focus:outline-none text-white flex-grow flex justify-end md:hidden">
+      <svg class="menu-bars fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path class="heroicon-ui" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/></svg>
+      <svg class="menu-close fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path class="heroicon-ui" d="M16.24 14.83a1 1 0 0 1-1.41 1.41L12 13.41l-2.83 2.83a1 1 0 0 1-1.41-1.41L10.59 12 7.76 9.17a1 1 0 0 1 1.41-1.41L12 10.59l2.83-2.83a1 1 0 0 1 1.41 1.41L13.41 12l2.83 2.83z"/></svg>
+
     </button>
   </nav>
+  <div id="menu" class="flex hidden absolute w-full left-0 top-1 bg-charleston-green text-white flex-col space-y-2 px-4 py-2 text-lg items-start md:hidden">
+    <a class="hover:text-orange-yellow" href="https://datasketch.github.io/especial-arv-itpc">Inicio</a>
+    <a class="hover:text-orange-yellow" href="">Artículos</a>
+    <a class="hover:text-orange-yellow" href="">Explorador de datos</a>
+    <a class="hover:text-orange-yellow" href='https://datasketch.github.io/especial-arv-itpc/metodologia/'>Metodología</a>
+  </div>
 </header>
   <main>
     
@@ -41,13 +49,13 @@
         <span class="px-2 bg-orange-yellow">públicas</span>
         <span class="px-2 bg-orange-yellow">y VIH</span>
       </h1>
-      <p class="text-white text-xl mt-6">Este es un análisis de 41 contratos de compras de medicamentos antirretrovirales con fondos públicos en Guatemala durante el año 2019. Se estimaron y evidenciaron sobreprecios en algunas adquisiciones, barreras legales para la adquisición de medicamentos y un alto impacto en el tratamiento de personas viviendo con VIH.</p>
+      <p class="text-white text-xl mt-6">Este es un análisis de 41 contratos de compras de medicamentos antirretrovirales con fondos públicos en Guatemala durante el año 2019. Se estimaron y evidenciaron sobreprecios en algunas adquisiciones, barreras legales y un alto impacto en el tratamiento de personas con VIH.</p>
     </div>
   </div>
   <div class="bg-bottle-green bg-contain bg-no-repeat bg-right-top py-24 px-4 observed" style='background-image: url(https://datasketch.github.io/especial-arv-itpc/images/lateral.webp);'>
     <div class="w-4/5 mx-auto">
       <div class="text-white max-w-lg space-y-6 text-lg md:text-xl">
-        <p class="observed">Existe una falta de acceso a tratamientos para todas las personas con VIH en Guatemala, esto debido, entre otras causas, a las barreras legales sobre los medicamentos antirretrovirales, gestión administrativa y utilización de modalidades de compras que no garantizan un uso eficiente de los recursos en los procesos de adquisiciones de medicamentos con fondos públicos. </p>
+        <p class="observed">Existe una falta de acceso a tratamientos para todas las personas con VIH en Guatemala, esto debido, entre otras causas, a las barreras legales sobre los medicamentos antirretrovirales, gestión administrativa y utilización de modalidades de compras que no garantizan un uso eficiente de los recursos en los procesos de adquisiciones de medicamentos con fondos públicos.</p>
         <p class="observed">La <strong>cascada de atención 90-90-90</strong> son los porcentajes de diagnóstico, tratamiento y supresión viral de pacientes con VIH que se fijaron como objetivo para el año 2020 en Guatemala. Se busca lograr que el 90% de personas viviendo con VIH conozcan su diagnóstico, 90% de personas diagnosticadas estén vinculadas a tratamiento y 90% de personas en tratamiento estén con supresión viral.</p>
         <p class="observed">Al año 2016, según el informe nacional de la cascada de atención 90-90-90, de un estimado de 46,271 personas viviendo con VIH, 28,844 personas (más o menos el 62%) conocían su diagnóstico serológico, de las cuales solamente un 38% estaban bajo tratamiento con Antirretrovirales (ARV). Esto abre el debate sobre la sostenibilidad de la respuesta a la epidemia del VIH en Guatemala.</p>
       </div>
@@ -55,14 +63,93 @@
   </div>
   <div class="bg-baby-powder py-24 px-4">
     <div class="mx-auto w-4/5 space-y-24">
-      <div class="grid gap-12 grid-cols-1 md:grid-cols-2 observed">
-        <div></div>
-        <p class="text-lg md:text-xl">Los resultados indican que los ARVs comprados con más de 9 millones de quetzales en el año 2020, pudieron haberse adquirido utilizando precios de referencia (precio establecido en el listado de precios de medicamentos antirretrovirales de la Organización Panamericana de la Salud para el año 2018, o en la lista de precios de medicamentos antirretrovirales de Médicos sin Fronteras para el mismo año) por un monto de Q 6,643,230.99 con un ahorro de Q 2,786,915.43.
-        </p>
+      <div class="grid gap-12 grid-cols-1 lg:grid-cols-2 observed">
+        <div class="overflow-x-auto">
+  <table class="bg-cosmic-latte text-lg md:text-xl table-fixed">
+    <thead>
+      <tr class="bg-fulvous text-white text-center text-base">
+        <th colspan="3" class="px-4 py-2">
+          Compras de ARV con fondos públicos en Guatemala (2019)
+        </th>
+      </tr>
+      <tr>
+        <th class="w-1/3"></th>
+        <th class="w-1/3 px-4 py-2">GTQ</th>
+        <th class="w-1/3 px-4 py-2">USD</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="font-bold px-4 py-2">Total de compra</td>
+        <td class="text-center px-4 py-2">Q 9,430,146.42</td>
+        <td class="text-center px-4 py-2">$1,224,956.30</td>
+      </tr>
+      <tr>
+        <td class="px-4 py-2">Pudo haber costado</td>
+        <td class="text-center px-4 py-2">Q 6,988,620.62</td>
+        <td class="text-center px-4 py-2">$907,807.21</td>
+      </tr>
+      <tr>
+        <td class="leading-none px-4 py-2">Se podría haber obtenido un ahorro de</td>
+        <td class="text-center px-4 py-2">Q 2,441,525.80</td>
+        <td class="text-center px-4 py-2">$317,149.10</td>
+      </tr>
+      <tr class="font-bold">
+        <td colspan="3" class="px-4 py-2">41 contratos analizados</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+        <p class="text-lg md:text-xl">Los resultados indican que los ARVs comprados con más de 9 millones de quetzales en el año 2020, pudieron haberse adquirido utilizando precios de referencia (precio establecido en el listado de precios de medicamentos antirretrovirales de la Organización Panamericana de la Salud para el año 2018, o en la lista de precios de medicamentos antirretrovirales de Médicos sin Fronteras para el mismo año) por un monto de <strong>Q 6,643,230.99</strong> con un ahorro de <strong>Q 2,786,915.43</strong>.</p>
       </div>
       <div class="grid gap-12 grid-cols-1 md:grid-cols-2 observed">
-        <p class="text-lg md:text-xl">La principal modalidad de compra de antirretrovirales fue la licitación pública para el 2019. Un aspecto importante es el impacto que la protección con barreras legales tiene sobre los medicamentos al momento de ejecutar las compras. Cuando un medicamento está protegido, el efecto de compra es similar al de una compra directa, esto debido a que se eliminan competidores del mercado, dejando únicamente a los proveedores que son concesionarios de la marca protegida. </p>
-        <div></div>
+        <p class="text-lg md:text-xl">La principal modalidad de compra de antirretrovirales fue la licitación pública para el 2019. Un aspecto importante es el impacto de las barreras legales en los medicamentos, estas son protecciones a los laboratorios fabricantes de los medicamentos o a concesionarios de estos en cada país. Por ejemplo una patente sobre un medicamento protege al dueño de la patente de su competencia por un período de 20 años. El efecto que tiene en las compras públicas, es el incremento en costos de adquisiciones, ya que al final si no pueden participar más oferentes, el efecto es el mismo que el de una compra directa.</p>
+        <div class="overflow-x-auto">
+  <table class="bg-cosmic-latte text-lg md:text-xl table-fixed">
+    <thead>
+      <tr class="bg-fulvous text-white text-center">
+        <th colspan="3" class="px-4 py-2 text-base">
+          Monto total de adquisiciones de ARV con fondos públicos en Guatemala en el 2019, por modalidad de compra
+        </th>
+      </tr>
+      <tr>
+        <th class="w-1/3 px-4 py-2">Modalidad</th>
+        <th class="w-1/3 px-4 py-2">GTQ</th>
+        <th class="w-1/3 px-4 py-2">USD</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="leading-none px-4 py-2">Licitación Pública (Art. 17 LCE)</td>
+        <td class="text-center px-4 py-2">Q 3,637,849.50</td>
+        <td class="text-center px-4 py-2">$472,549.04</td>
+      </tr>
+      <tr>
+        <td class="leading-none px-4 py-2">Convenios y Tratados Internacionales (Art. 1 LCE)</td>
+        <td class="text-center px-4 py-2">Q 2,538,251.37</td>
+        <td class="text-center px-4 py-2">$329,713.55</td>
+      </tr>
+      <tr>
+        <td class="leading-none px-4 py-2">Compra Directa con Oferta Electrónica (Art. 43 LCE Inciso b)</td>
+        <td class="text-center px-4 py-2">Q 2,453,102.55</td>
+        <td class="text-center px-4 py-2">$318,652.89</td>
+      </tr>
+      <tr>
+        <td class="leading-none px-4 py-2">Adquisición Directa por Ausencia de Oferta (Art. 32 LCE)</td>
+        <td class="text-center px-4 py-2">Q 800,943.00</td>
+        <td class="text-center px-4 py-2">$104,040.32</td>
+      </tr>
+      <tr class="font-bold">
+        <td class="leading-none px-4 py-2">Total general</td>
+        <td class="text-center px-4 py-2">Q 9,430,146.42</td>
+        <td class="text-center px-4 py-2">$1,224,956.30</td>
+      </tr>
+      <tr class="font-bold">
+        <td class="px-4 py-2" colspan="3">TC 1 USD = 7.698353 GTQ</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
       </div>
     </div>
   </div>
@@ -83,7 +170,39 @@
         <div></div>
       </div>
       <div class="grid gap-12 grid-cols-1 md:grid-cols-2 observed">
-        <div></div>
+        <div class="overflow-x-auto">
+  <table class="bg-onyx text-white text-lg md:text-xl table-fixed">
+    <thead>
+      <tr class="bg-white text-charleston-green text-center">
+        <th colspan="3" class="px-4 py-2 text-base">
+          Total de adquisiciones de ARV protegidos con barreras legales en Guatemala con fondos públicos, en 2019 en 41 contratos de compra USD/GTQ
+        </th>
+      </tr>
+      <tr>
+        <th class="w-1/3 px-4 py-2"></th>
+        <th class="w-1/3 px-4 py-2">GTQ</th>
+        <th class="w-1/3 px-4 py-2">USD</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="leading-none px-4 py-2">Total de compra</td>
+        <td class="text-center px-4 py-2">Q 2,146,463.06</td>
+        <td class="text-center px-4 py-2">$278,821.06</td>
+      </tr>
+      <tr>
+        <td class="leading-none px-4 py-2">Pudo haber costado</td>
+        <td class="text-center px-4 py-2">Q 768,875.71</td>
+        <td class="text-center px-4 py-2">$99,875.35</td>
+      </tr>
+      <tr>
+        <td class="leading-none px-4 py-2">Se podría haber obtenido un ahorro de</td>
+        <td class="text-center px-4 py-2">Q 1,377,587.35</td>
+        <td class="text-center px-4 py-2">$178,945.72</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
         <p class="text-lg md:text-xl">Los montos de medicamentos protegidos con barreras legales adquiridos en el 2019 fueron de alrededor de 2 millones de quetzales, sin embargo pudieron haberse adquirido a un costo mucho menor del que se pagó.</p>
       </div>
     </div>
@@ -99,9 +218,197 @@
     </div>
   </div>
   <div class="bg-bottle-green py-24 px-4">
-    <div class="mx-auto w-4/5 space-y-24">
-      <p class="text-white text-lg text-center max-w-4xl mx-auto md:text-xl observed">La siguiente tabla muestra los porcentajes de sobreprecios en las compras que no fueron eficientes considerando la comparación entre costo de adquisición y precios de referencia citados en este estudio.</p>
-      <p class="text-white text-lg text-center max-w-4xl mx-auto md:text-xl observed">Se puede apreciar que los porcentajes de sobreprecio varían desde 5% en la compra de COBICISTAT + ELVITEGRAVIR + TENOFOVIR ALAFENAMIDA + EMTRICITABINA hasta un sobreprecio del 11,186% en la compra de Dolutegravir 50 mg, según el NOG (Número de Operación de Guatecompras). Esta cifra indica que el medicamento se compró 112 veces más caro.</p>
+    <div class="mx-auto w-4/5 space-y-16">
+      <p class="text-white text-lg text-center max-w-4xl mx-auto md:text-xl observed">La siguiente tabla muestra los porcentajes de sobreprecios en las compras que no fueron eficientes, considerando la comparación entre costo de adquisición y precios de referencia citados en este estudio.</p>
+      <div class="overflow-x-auto">
+  <table class="bg-hookers-green text-white text-lg md:text-xl table-fixed">
+    <thead>
+      <tr class="bg-white text-bottle-green text-center">
+        <th colspan="5" class="px-4 py-2">
+          Porcentaje de sobreprecio en la adquisición de ARV en el año 2019, considerando precios de referencia utilizados en este estudio (Precios expresados en Quetzales)
+        </th>
+      </tr>
+      <tr>
+        <th class="w-1/5 px-4 py-2">NOG Concurso (Fuente)</th>
+        <th class="w-1/5 px-4 py-2">Nombre de medicamento según proyección de compra</th>
+        <th class="w-1/5 px-4 py-2">Costo unitario frasco</th>
+        <th class="w-1/5 px-4 py-2">Precio de referencia</th>
+        <th class="w-1/5 px-4 py-2">% de sobreprecio</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="text-center px-4 py-2">10625364</td>
+        <td class="text-center px-4 py-2">COBICISTAT + ELVITEGRAVIR + TENOFOVIR ALAFENAMIDA + EMTRICITABINA</td>
+        <td class="text-center px-4 py-2">586.50</td>
+        <td class="text-center px-4 py-2">560.10</td>
+        <td class="text-center px-4 py-2">5%</td>
+      </tr>
+      <tr>
+        <td class="text-center px-4 py-2">9757945</td>
+        <td class="text-center px-4 py-2">COBICISTAT + ELVITEGRAVIR + TENOFOVIR ALAFENAMIDA + EMTRICITABINA</td>
+        <td class="text-center px-4 py-2">586.55</td>
+        <td class="text-center px-4 py-2">560.10</td>
+        <td class="text-center px-4 py-2">5%</td>
+      </tr>
+      <tr>
+        <td class="text-center px-4 py-2">9906118</td>
+        <td class="text-center px-4 py-2">Raltegravir 100 mg tableta masticables frasco 60 tab </td>
+        <td class="text-center px-4 py-2">393.22</td>
+        <td class="text-center px-4 py-2">346.43</td>
+        <td class="text-center px-4 py-2">14%</td>
+      </tr>
+      <tr>
+        <td class="text-center px-4 py-2">10178228</td>
+        <td class="text-center px-4 py-2">Zidovudina+Lamivudina+Nevirapina 300+150+200mg/tab</td>
+        <td class="text-center px-4 py-2">195.00</td>
+        <td class="text-center px-4 py-2">67.55</td>
+        <td class="text-center px-4 py-2">189%</td>
+      </tr>
+      <tr>
+        <td class="text-center px-4 py-2">9906118</td>
+        <td class="text-center px-4 py-2">Raltegravir 400 mg tableta masticables frasco 60 tab</td>
+        <td class="text-center px-4 py-2">1,946.25</td>
+        <td class="text-center px-4 py-2">548.51</td>
+        <td class="text-center px-4 py-2">255%</td>
+      </tr>
+      <tr>
+        <td class="text-center px-4 py-2">10046518</td>
+        <td class="text-center px-4 py-2">Ritonavir 100 mg / 30 cap</td>
+        <td class="text-center px-4 py-2">384.60</td>
+        <td class="text-center px-4 py-2">72.17</td>
+        <td class="text-center px-4 py-2">433%</td>
+      </tr>
+      <tr>
+        <td class="text-center px-4 py-2">11224363</td>
+        <td class="text-center px-4 py-2">Darunavir 600mg tableta frasco 60 tab</td>
+        <td class="text-center px-4 py-2">5,280.00</td>
+        <td class="text-center px-4 py-2">577.38</td>
+        <td class="text-center px-4 py-2">814%</td>
+      </tr>
+      <tr>
+        <td class="text-center px-4 py-2">11323299</td>
+        <td class="text-center px-4 py-2">Darunavir 600mg tableta frasco 60 tab</td>
+        <td class="text-center px-4 py-2">5,280.00</td>
+        <td class="text-center px-4 py-2">577.38</td>
+        <td class="text-center px-4 py-2">814%</td>
+      </tr>
+      <tr>
+        <td class="text-center px-4 py-2">11418346</td>
+        <td class="text-center px-4 py-2">Darunavir 600mg tableta frasco 60 tab</td>
+        <td class="text-center px-4 py-2">5,280.00</td>
+        <td class="text-center px-4 py-2">577.38</td>
+        <td class="text-center px-4 py-2">814%</td>
+      </tr>
+      <tr>
+        <td class="text-center px-4 py-2">11577274</td>
+        <td class="text-center px-4 py-2">Darunavir 600mg tableta frasco 60 tab</td>
+        <td class="text-center px-4 py-2">5,280.00</td>
+        <td class="text-center px-4 py-2">577.38</td>
+        <td class="text-center px-4 py-2">814%</td>
+      </tr>
+      <tr>
+        <td class="text-center px-4 py-2">11597321</td>
+        <td class="text-center px-4 py-2">Darunavir 600mg tableta frasco 60 tab</td>
+        <td class="text-center px-4 py-2">5,280.00</td>
+        <td class="text-center px-4 py-2">577.38</td>
+        <td class="text-center px-4 py-2">814%</td>
+      </tr>
+      <tr>
+        <td class="text-center px-4 py-2">10166874</td>
+        <td class="text-center px-4 py-2">Darunavir 600mg tableta frasco 60 tab</td>
+        <td class="text-center px-4 py-2">5,918.40</td>
+        <td class="text-center px-4 py-2">577.38</td>
+        <td class="text-center px-4 py-2">925%</td>
+      </tr>
+      <tr>
+        <td class="text-center px-4 py-2">10290745</td>
+        <td class="text-center px-4 py-2">Darunavir 600mg tableta frasco 60 tab</td>
+        <td class="text-center px-4 py-2">5,918.40</td>
+        <td class="text-center px-4 py-2">577.38</td>
+        <td class="text-center px-4 py-2">925%</td>
+      </tr>
+      <tr>
+        <td class="text-center px-4 py-2">10802258</td>
+        <td class="text-center px-4 py-2">Darunavir 600mg tableta frasco 60 tab</td>
+        <td class="text-center px-4 py-2">5,918.40</td>
+        <td class="text-center px-4 py-2">577.38</td>
+        <td class="text-center px-4 py-2">925%</td>
+      </tr>
+      <tr>
+        <td class="text-center px-4 py-2">11054727</td>
+        <td class="text-center px-4 py-2">Darunavir 600mg tableta frasco 60 tab</td>
+        <td class="text-center px-4 py-2">5,918.40</td>
+        <td class="text-center px-4 py-2">577.38</td>
+        <td class="text-center px-4 py-2">925%</td>
+      </tr>
+      <tr>
+        <td class="text-center px-4 py-2">11131233</td>
+        <td class="text-center px-4 py-2">Darunavir 600mg tableta frasco 60 tab</td>
+        <td class="text-center px-4 py-2">5,918.40</td>
+        <td class="text-center px-4 py-2">577.38</td>
+        <td class="text-center px-4 py-2">925%</td>
+      </tr>
+      <tr>
+        <td class="text-center px-4 py-2">11181435</td>
+        <td class="text-center px-4 py-2">Darunavir 600mg tableta frasco 60 tab</td>
+        <td class="text-center px-4 py-2">5,918.40</td>
+        <td class="text-center px-4 py-2">577.38</td>
+        <td class="text-center px-4 py-2">925%</td>
+      </tr>
+      <tr>
+        <td class="text-center px-4 py-2">11226676</td>
+        <td class="text-center px-4 py-2">Darunavir 600mg tableta frasco 60 tab</td>
+        <td class="text-center px-4 py-2">5,918.40</td>
+        <td class="text-center px-4 py-2">577.38</td>
+        <td class="text-center px-4 py-2">925%</td>
+      </tr>
+      <tr>
+        <td class="text-center px-4 py-2">10367292</td>
+        <td class="text-center px-4 py-2">Raltegravir 400 mg tableta masticables frasco 60 tab</td>
+        <td class="text-center px-4 py-2">6,726.00</td>
+        <td class="text-center px-4 py-2">548.51</td>
+        <td class="text-center px-4 py-2">1126%</td>
+      </tr>
+      <tr>
+        <td class="text-center px-4 py-2">10929207</td>
+        <td class="text-center px-4 py-2">Raltegravir 400 mg tableta masticables frasco 60 tab</td>
+        <td class="text-center px-4 py-2">6,726.00</td>
+        <td class="text-center px-4 py-2">548.51</td>
+        <td class="text-center px-4 py-2">1126%</td>
+      </tr>
+      <tr>
+        <td class="text-center px-4 py-2">11466677</td>
+        <td class="text-center px-4 py-2">Etravirina 100 mg tableta frasco 120 tab</td>
+        <td class="text-center px-4 py-2">6,301.20</td>
+        <td class="text-center px-4 py-2">346.43</td>
+        <td class="text-center px-4 py-2">1719%</td>
+      </tr>
+      <tr>
+        <td class="text-center px-4 py-2">10367713</td>
+        <td class="text-center px-4 py-2">Etravirina 100 mg tableta frasco 120 tab</td>
+        <td class="text-center px-4 py-2">6,301.20</td>
+        <td class="text-center px-4 py-2">346.43</td>
+        <td class="text-center px-4 py-2">1719%</td>
+      </tr>
+      <tr>
+        <td class="text-center px-4 py-2">10802835</td>
+        <td class="text-center px-4 py-2">Etravirina 100 mg tableta frasco 120 tab</td>
+        <td class="text-center px-4 py-2">6,301.20</td>
+        <td class="text-center px-4 py-2">346.43</td>
+        <td class="text-center px-4 py-2">1719%</td>
+      </tr>
+      <tr>
+        <td class="text-center px-4 py-2">10873759</td>
+        <td class="text-center px-4 py-2">Dolutegravir 50 mg</td>
+        <td class="text-center px-4 py-2">3,801.00</td>
+        <td class="text-center px-4 py-2">33.68</td>
+        <td class="text-center px-4 py-2">11186%</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+      <p class="text-white text-lg text-center max-w-4xl mx-auto md:text-xl observed">Se puede apreciar que los porcentajes de sobreprecio varían desde 5% en la compra de COBICISTAT + ELVITEGRAVIR + TENOFOVIR ALAFENAMIDA + EMTRICITABINA hasta un sobreprecio del 11,186% en la compra de Dolutegravir 50 mg, según el NOG (Número de Operación de Guatecompras). Esta cifra indica que el medicamento se compró 112 veces más costoso.</p>
     </div>
   </div>
   <div class="bg-center bg-cover bg-no-repeat py-24 px-4 observed" style='background-image: url(https://datasketch.github.io/especial-arv-itpc/images/articulo3.webp);'>
@@ -155,7 +462,10 @@
   </div>
 </footer>
   
-  <script src='https://datasketch.github.io/especial-arv-itpc/js/reveal.js'></script>
+  <script src="https://datasketch.github.io/especial-arv-itpc/js/default.js"></script>
+  
+  
+  <script src="https://datasketch.github.io/especial-arv-itpc/js/reveal.js"></script>
   <script>
     const handler = new Reveal('.observed', { thresold: 0.5, intersected: 'fade-in' });
     handler.init();

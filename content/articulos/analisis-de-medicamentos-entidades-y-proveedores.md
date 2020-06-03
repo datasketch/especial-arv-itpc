@@ -8,13 +8,13 @@ images:
 
 ## Darunavir 600mg
 
-Este medicamento fue adquirido a un costo de más de Q 5,000 por frasco, cuando el precio de referencia internacional (OPS) es de Q 577.38, esto considerando 25% de transporte y cargos administrativos. Si este medicamento se hubiera adquirido a precio de referencia, se hubieran podido comprar 1,488 frascos más.
+Este medicamento fue adquirido a un costo de más de Q 5,000 por frasco, cuando el precio de referencia internacional (de la Organización Panamericana de la Salud -OPS-) es de Q 577.38, esto considerando 25% de transporte y cargos administrativos. Si este medicamento se hubiera adquirido a precio de referencia, se hubieran podido comprar 1,488 frascos más.
 
 ## Dolutegravir 50mg
 
 La compra de este medicamento fue la menos eficiente en el 2019, se compraron 23 frascos a un proveedor local cuando por el mismo monto se pudieron haber adquirido 2,596 frascos. El sobreprecio en este caso es de un 11,186% considerando el precio de referencia. 
 
-Este medicamento no está protegido con una patente ya que fue liberada por el fabricante para una lista de países en la que se incluye Guatemala, pero, sí cuenta con una protección de datos en el país la cual vence en noviembre 2020. 
+Este medicamento no está protegido con una patente ya que fue liberada por el fabricante para una lista de países en la que se incluye Guatemala, pero, sí cuenta con una protección de datos en el país la cual vence en noviembre 2020.
 
 ## Etravirina 100mg
 
@@ -24,7 +24,7 @@ No se tienen registros de que actualmente este medicamento esté protegido con a
 
 ## Raltegravir 400mg
 
-El precio de compra a OPS es Q1,946.25, Precio de compra a J.I Cohen es de Q6,726.00, cuando el precio de referencia Q 548.51. Con este precio se hubieran comprado 2,201 frascos más.
+El precio de compra de este medicamento a la OPS es Q1,946.25, y a J.I Cohen es de Q6,726.00, cuando el precio de referencia son Q 548.51. Con este precio se hubieran comprado 2,201 frascos más.
 
 ## Zidovudina+Lamivudina+Nevirapina 300+150+200mg
 
@@ -42,8 +42,6 @@ Es importante destacar que sobre algunos medicamentos como Etravirina, y Ritonav
 
 **Ministerio de Salud**
 
-El hecho de que el Ministerio de Salud tenga acceso a realizar sus compras de antirretrovirales por medio de OPS utilizando la modalidad de  compra “Convenios y tratados internacionales” le permite hacer compras de ARVs  más eficientes que las que realiza el Hospicio San José, la razón básicamente es que debido al volumen de compras que la Organización Panamericana de la Salud hace a distintos proveedores alrededor del mundo le permite  acceder a precios de economías de escala, siendo generalmente más bajos que los precios que proveedores locales generalmente ofrecen.
+El hecho de que El ministerio de Salud tenga acceso a realizar sus compras de antirretrovirales por medio de OPS utilizando la modalidad de  compra “Convenios y tratados internacionales” le permite hacer compras de ARVs  más eficientes que las que realiza el Hospicio San José, la razón básicamente es que debido al volumen de compras que la Organización Panamericana de la Salud hace a distintos proveedores alrededor del mundo le permite  acceder a precios de economías de escala, siendo generalmente más bajos que los precios que proveedores locales generalmente ofrecen.
 
-El siguiente gráfico muestra la eficiencia en las compras realizadas por el Ministerio de Salud en el año 2018, dicha eficiencia se obtiene determinando cuanto pudo haberse gastado en la compra de los ARVs que adquirieron en el período  (Q5,810,508.10) dividido lo que se pagó en realidad por ellos (Q7,896,643.02). Como se puede observar en el siguiente gráfico este índice fue del 74%. 
-
-
+La eficiencia en las compras realizadas por el Ministerio de Salud en el año 2018 se determina con lo que se debió gastar en compras de ARVs (Q5,810,508.10) dividido en lo que se pagó en realidad por ellos (Q7,896,643.02). Este índice es del 74%.

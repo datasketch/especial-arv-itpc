@@ -12,9 +12,9 @@
   
 </head>
 <body class="font-source-serif">
-  <header class="bg-charleston-green px-4 py-2 border-b border-white sticky top-0 z-10">
+  <header class="bg-charleston-green px-4 py-2 border-b border-white sticky top-0 z-10 relative">
   <nav class="flex items-center">
-    <a href="" target="_blank" rel="noopener noreferrer">
+    <a href="https://itpclatca.org/" target="_blank" rel="noopener noreferrer">
       <img class="h-10" src='https://datasketch.github.io/especial-arv-itpc/images/itpc.png' alt="ITPC" />
     </a>
     <div class="hidden items-center justify-center flex-grow text-white space-x-4 text-lg md:flex">
@@ -26,10 +26,18 @@
     <a class="ml-2 md:ml-0" href="https://www.datasketch.co" target="_blank" rel="noopener noreferrer">
       <img class="h-6 invert" src='https://datasketch.github.io/especial-arv-itpc/images/ds.svg' alt="Datasketch" />
     </a>
-    <button class="focus:outline-none text-white flex-grow flex justify-end md:hidden">
-      <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path class="heroicon-ui" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/></svg>
+    <button class="menu-toggle focus:outline-none text-white flex-grow flex justify-end md:hidden">
+      <svg class="menu-bars fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path class="heroicon-ui" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/></svg>
+      <svg class="menu-close fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path class="heroicon-ui" d="M16.24 14.83a1 1 0 0 1-1.41 1.41L12 13.41l-2.83 2.83a1 1 0 0 1-1.41-1.41L10.59 12 7.76 9.17a1 1 0 0 1 1.41-1.41L12 10.59l2.83-2.83a1 1 0 0 1 1.41 1.41L13.41 12l2.83 2.83z"/></svg>
+
     </button>
   </nav>
+  <div id="menu" class="flex hidden absolute w-full left-0 top-1 bg-charleston-green text-white flex-col space-y-2 px-4 py-2 text-lg items-start md:hidden">
+    <a class="hover:text-orange-yellow" href="https://datasketch.github.io/especial-arv-itpc">Inicio</a>
+    <a class="hover:text-orange-yellow" href="">Artículos</a>
+    <a class="hover:text-orange-yellow" href="">Explorador de datos</a>
+    <a class="hover:text-orange-yellow" href='https://datasketch.github.io/especial-arv-itpc/metodologia/'>Metodología</a>
+  </div>
 </header>
   <main>
     
@@ -49,7 +57,8 @@
   <div class="w-full mx-auto px-4 py-12 md:w-4/5">
     <div class="markup">
       <p>El análisis realizado para la construcción del presente especial fue cuantitativo, y retrospectivo. En el marco del proyecto “Partnership for Civil Engagement In Open Contracting”. Celebrado entre HIVOS e ITPC-LATCA en el año 2019.</p>
-<p>Para este efecto se utilizó la  “Proyección de necesidad de medicamentos Guatemala 2017”, realizada en el año 2016  por la coordinación de logística de la subvención de VIH con acompañamiento del ALF (Agente Local de Fondo Mundial), como base de medicamentos a los que se les daría seguimiento sobre el tema de adquisiciones con fondos públicos en el 2017 y 2018 y 2019.</p>
+<p>El desarrollo web, diseño y edición de contenidos fue realizado por Datasketch.</p>
+<p>Para este efecto se utilizó la  “Proyección de necesidad de medicamentos Guatemala 2017”, realizada en el año 2016  por la coordinación de logística de la subvención de VIH con acompañamiento del ALF (Agente Local de Fondo Mundial), como base de medicamentos a los que se les daría seguimiento sobre el tema de adquisiciones con fondos públicos en el 2017, 2018 y 2019.</p>
 <h2 id="paso-1">Paso 1</h2>
 <p>Se analizó el listado de medicamentos de la proyección de necesidad de antirretrovirales de Guatemala del año 2019, donde se determinó que era necesario incluir  en el estudio medicamentos como el Dolutegravir, Atazanavir, Genvoya, y Tenofovir Alafenamida. y dosificaciones distintas de los medicamentos incluidos en la  necesidad proyectada, por haberse realizado adquisiciones de los mismos en 2017 y 2018, según contratos de compras analizadas.</p>
 <h2 id="paso-2">Paso 2</h2>
@@ -59,7 +68,7 @@
 <p>Se utilizó el sitio de Guatecompras, para determinar el costo unitario por tableta, cápsula, o frasco en el caso de los medicamentos en presentación de solución,  incluyendo ponderaciones sobre gastos de flete y gestiones administrativas en el caso de las compras internacionales; haciendo además ajustes de tipos de cambio, todo esto con la finalidad de comprobar los valores de los montos reflejados en cada compra de medicamentos.</p>
 <p>Se seleccionó el tipo de cambio promedio del año 2019 el cual fue de 7.6983 Quetzales por 1 dólar, según el Banco de Guatemala.</p>
 <h2 id="paso-4">Paso 4</h2>
-<p>Se procedió a determinar un precio de referencia con el cual se compararon las compras de medicamentos del año 2019, se decidió que se utilizaría el precio unitario de OPS (Organización Panamericana de la Salud)  de los años 2018-2021 como primera fuente, en caso de que el medicamento no estuviera incluido en este listado se utilizaría el precio del listado de Médicos sin Fronteras para el año 2019, y si el medicamento no estaba en ninguna de estas dos listas el precio para comparar sería el más bajo al que el estado lo adquirió en distintos eventos de compra en el mismo año, tomando como base siempre el costo unitario, por tableta o cápsula y por frasco en caso de medicamentos en presentación de solución.</p>
+<p>Se procedió a determinar un precio de referencia con el cual se compararon las compras de medicamentos del año 2019, se decidió utilizar el precio unitario de OPS (Organización Panamericana de la Salud)  de los años 2018-2021 como primera fuente, en caso de que el medicamento no estuviera incluido en este listado se utilizó el precio del listado de Médicos sin Fronteras para el año 2019, y si el medicamento no estaba en ninguna de estas dos listas el precio para comparar sería el más bajo al que el estado lo adquirió en distintos eventos de compra en el mismo año, tomando como base siempre el costo unitario, por tableta o cápsula y por frasco en caso de medicamentos en presentación de solución.</p>
 <p>Los datos recabados en este paso fueron incorporados a la base de datos sobre el proyecto, y se tomó en consideración un 25% adicional al costo por concepto de flete, capitalización de OPS y gastos por gestión administrativa.</p>
 <h2 id="paso-5">Paso 5</h2>
 <p>Se realizó la investigación sobre actualización de estatus de patentes y protección de datos de medicamentos antirretrovirales en Guatemala, identificando Número de patente (si la hubiere), fecha de vencimiento y fuente.  Dicha información se incorporó a la base de datos.</p>
@@ -113,6 +122,8 @@
     </div>
   </div>
 </footer>
+  
+  <script src="https://datasketch.github.io/especial-arv-itpc/js/default.js"></script>
   
 </body>
 </html>
