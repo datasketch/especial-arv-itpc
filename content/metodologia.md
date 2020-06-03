@@ -2,6 +2,9 @@
 title: "Conoce nuestra metodología"
 date: 2020-06-02T10:59:07-05:00
 draft: false
+menu:
+  main:
+    weight: 4
 images:
   - "images/metodologia.webp"
 ---

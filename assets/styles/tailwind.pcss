@@ -20,6 +20,17 @@
 
 @tailwind components;
 
+
+.menu-toggle .menu-bars,
+.menu-toggle.active .menu-close {
+  @apply block;
+}
+
+.menu-toggle .menu-close,
+.menu-toggle.active .menu-bars {
+  @apply hidden;
+}
+
 .invert {
   filter: brightness(0) invert(1);
 }

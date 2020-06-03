@@ -15,6 +15,9 @@ module.exports = {
       fontFamily: {
         'source-serif': ['"Source Serif Pro"', 'sans-serif'],
         lato: ['Lato', 'sans-serif']
+      },
+      inset: {
+        '1': '100%'
       }
     },
   },

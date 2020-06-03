@@ -81,7 +81,8 @@
 {{ end }}
 
 {{ define "scripts" }}
-  <script src='{{ "js/reveal.js" | absURL }}'></script>
+  {{ $reveal := resources.Get "js/reveal.js" }}
+  <script src="{{ $reveal.Permalink }}"></script>
   <script>
     const handler = new Reveal('.observed', { thresold: 0.5, intersected: 'fade-in' });
     handler.init();

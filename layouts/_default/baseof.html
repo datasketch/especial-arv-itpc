@@ -20,6 +20,8 @@
     {{ block "main" . }}{{ end }}
   </main>
   {{ partial "footer.html" . }}
+  {{ $default_js := resources.Get "js/default.js" }}
+  <script src="{{ $default_js.Permalink }}"></script>
   {{ block "scripts" . }}{{ end }}
 </body>
 </html>
