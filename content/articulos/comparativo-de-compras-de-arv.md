@@ -8,6 +8,8 @@ images:
 
 El total de las compras públicas de ARVs en Guatemala en 2017, 2018 y 2019 tuvo un total de US$ 59 millones, que pudieron haberse adquirido por US$ 36 millones. Es decir, se pagaron US$ 22 millones de más por estos medicamentos en los 3 años.
 
+{{< total_compras >}}
+
 Comparando cada uno de estos tres años, se observa una considerable diferencia en cuanto a las compras de 2017 con respecto al 2018 y 2019. La diferencia corresponde a una compra de más de 21 millones de quetzales del medicamento Lopinavir Ritonavir en su presentación de 200 + 50 mg, según los Números de Operación de Guatecompas.
 
 Los 59 millones ejecutados en compras de medicamentos antirretrovirales en el período 2017-2019 fueron adjudicadas de acuerdo a las siguientes modalidades.
